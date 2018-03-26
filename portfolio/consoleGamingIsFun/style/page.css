@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+
+header
+{
+	font-size:36px;
+	padding-top:2em;
+	padding-bottom:2em;
+}
+
+.siteName
+{
+	width: 900px;
+	height: 160px;
+}
+#eSportPic
+{
+	align-content: center;
+	width: 100%;
+	height: 500px;
+
+}
+#eSportDes
+{
+	float: right;
+	padding-top: 20px;
+	border:solid 2px #9c0002;
+	color:#ffffff;
+	background:#000000;
+}
+#eSportDes p
+{
+	text-indent: 50px;
+	text-align: center;
+}
+
+body
+{
+	background:#5B5B5B;	
+}
+
+p
+{
+	text-indent:50px;
+	text-align: left;
+	padding:1em;
+	margin:0;
+}
+
+#pageheader > h1
+{
+	border-bottom:solid 3px #9c0002;
+	text-align:center;
+	background:none;
+	color:#FFFFFF;
+	padding:0;
+}
+#headerimage
+{
+	text-align:center;
+	max-width:90%;
+	max-height:30%;	
+	padding-left:10%;
+}
+
+footer
+{
+	color:#000000;
+}
+
+table ,th, tr
+{
+	background:#6B6B6B;
+	color:#FFFFFF;
+}
+
+#timeline
+{
+	padding-top:1em;
+}
+
+#timeline h2
+{
+	text-align:center;
+	color:#ffffff;
+	border-bottom:solid medium #9c0002;
+	padding-top: 1px;	
+	max-width: 30%;
+}
+
+#timeline h3
+{
+	text-align:center;
+	color:#9F9F9F;
+	border:solid 1px #9C0002;
+	border-radius: 10px;
+	max-width:280px;
+	background:#9c0002;
+}
+
+#timeline h4
+{
+	font-size:15px;
+	padding-left:40px;
+}
+
+#timeline p
+{
+	text-indent:50px;
+}
+
+
+#navbar
+{
+	display:inline;
+	padding-bottom: 10px;
+}
+
+#navbar > li
+{
+	width:10px;
+}
+
+#navbar a
+{
+	color:#ffffff;
+	font-weight:bold;	
+}
+
+#navbar a:hover
+{
+	color:none;
+	animation: ease-in linear;
+	bottom:10px;	
+}
+
+.content > ul,
+{
+	padding-left:100px;	
+}
+
+.content > h4,
+{
+	border-bottom:solid 2px #9c0002;
+	max-width:280px;
+}
+.content h1
+{
+	text-align: center;
+	font-weight: bolder;
+}
+.content ul li
+{
+	border: 1px solid #9c0002;
+	background-color: #4d4d4d;
+	width: 500px;
+	padding: .3em;
+}
+
+table, td 
+{
+	align-content:center;
+	text-align:center;
+	padding:20px;
+    border: 1px solid #9c0002;
+	background: #000000;
+}
+
+th
+{
+	align-content:center;
+	text-align:center;
+	padding:20px;
+    border: 1px solid #000000;
+	background: #9c0002;	
+}
+
+.feedbackform
+{
+	align-content:center;
+	padding:.5em;
+	border:solid 2px #000000;
+	background:#9C0002;	
+	border-radius:10px;
+	color:white;
+}
+
+legend
+{
+	Color:white;
+	font-weight:bold;
+}
+
+input[type=text]
+{
+	background: #4d4d4d;
+	border-color:#00E3FF;
+}
+
+input[type=text]:focus
+{
+	background: #4d4d4d;
+	border-color:#C800FF;	
+	border-width:medium;
+}
+
+select
+{
+	background: #4d4d4d;
+	color:white;	
+}
+
+textarea
+{
+	background: #4d4d4d;
+	border-color:#00E3FF;	
+}
+
+.formsubmit
+{
+	width:10%;
+	height:5%;
+	float:right;
+	background:#000000;
+	border:solid thin #9C0002;	
+}
+
+.content
+{
+	border:solid 2px #9c0002;
+	color:#ffffff;
+	background:#000000;
+	padding: .5em .5em .5em .5em;
+}
+.divider
+{
+	border-bottom: 5px solid #9c0002;
+	border-radius: 10px;
+	padding-left: .5em;
+	padding-right: .5em;
+}
+
+

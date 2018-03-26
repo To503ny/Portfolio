@@ -1,0 +1,35 @@
+body
+{
+	margin-left:50px;
+	background-color:black;
+	color:grey;
+}
+#question1, #question2, #question3, #question4, #question5,
+#question6, #question7, #question8, #question9, #question10
+{
+	display:none;
+}
+canvas
+{
+	display:none;
+}
+#question1, #question3, #question5, #question7, #question9
+{
+	background-color: yellow;
+	color:black;
+}
+#question2, #question4, #question6, #question8, #question10
+{
+	background-color:blue;
+	color:white;
+}
+#q1Correct, #q2Correct, #q3Correct, #q4Correct, #q5Correct, #q6Correct,
+#q7Correct, #q8Correct, #q9Correct, #q10Correct
+{
+	display:none;
+}
+.correct
+{
+	background-color:#24399f;
+	color:white;
+}

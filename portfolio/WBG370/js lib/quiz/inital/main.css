@@ -1,0 +1,40 @@
+body
+{
+	margin-left:50px;
+	background-color:#545454;
+	color:white;
+}
+
+#question1, #question3, #question5, #question7, #question9
+{
+	background-color:#808080;
+	color:black;
+}
+
+#question2, #question4, #question6, #question8, #question10
+{
+	background-color:#d6d600;
+	color:black;
+}
+
+#question1, #question2, #question3, #question4, #question5, #question6,
+#question7, #question8, #question9, #question10
+{
+	/*display:none;*/
+}
+
+#q1Correct, #q2Correct, #q3Correct, #q4Correct, #q5Correct, #q6Correct,
+#q7Correct,#q8Correct, #q9Correct, #q10Correct, #youWin
+{
+	display:none;
+}
+
+canvas
+{
+	display:none;
+}
+
+.correct{
+	background-color:#24399f;
+	color:white;
+}

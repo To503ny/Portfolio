@@ -1,0 +1,92 @@
+#canvas{
+	position:absolute;
+	top:50px;
+	width:800px;
+	height: 390px;
+	margin: 10px;
+	border: 2px solid black;
+	z-index: -1;
+}
+#minimap{
+	border: 2px solid black;
+	position:absolute;
+	top:50px;
+	left:850px;
+	width:450px;
+	height:390px;
+	margin: 10px;
+}
+#blockMinimap{
+	position: absolute;
+	top: 62px;
+	left:863px;
+	height:390px;
+	width:450px;
+	background:black;
+}
+#screenshot-wrapper{
+	position:absolute;
+	top:480px;
+	left:17px;
+	border: 1px solid black;
+	background:black;
+}
+#camera{
+	width:100px;
+	position:absolute;
+	left:715px;
+	top:250px;
+}
+#gameInfo{
+	position:absolute;
+	top:480px;
+	left: 350px;
+	width:963px;
+	height:155px;
+}
+body{
+	background:grey;
+}
+#HUD{
+	position:absolute;
+	top: 10px;
+	left: 16px;
+	width:1293px;
+	height: 35px;
+	border: 2px solid black;
+	background:#00B445;
+}
+#title{
+	position:absolute;
+	top:-10px;
+	left: 20px;
+	font-weight: bold;
+	font-family:comic sans ms;
+}
+#playerPos{
+	position: absolute;
+	top: -10px;
+	right:10px;
+	font-weight: bold;
+	font-family: comic sans ms;
+}
+#success{
+	position:absolute;
+	top:-35px;
+	right:450px;
+	color:red;
+	font-weight:bold;
+	font-size: 30px;
+	font-family: comic sans ms;
+}
+
+
+
+
+
+
+
+
+
+
+

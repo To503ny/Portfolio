@@ -1,0 +1,59 @@
+#canvas{
+	position:absolute;
+	top:50px;
+	width:800px;
+	height: 390px;
+	margin: 10px;
+	z-index: -1;
+}
+#minimap{
+	border: 1px solid black;
+	position:absolute;
+	top:50px;
+	left:850px;
+	width:450px;
+	height:390px;
+	margin: 10px;
+}
+#screenshot-wrapper{
+	position:absolute;
+	top:480px;
+	left:17px;
+	border: 1px solid black;
+	background:black;
+}
+#camera{
+	width:100px;
+	position:absolute;
+	left:715px;
+	top:250px;
+}
+#gameInfo{
+	position:absolute;
+	top:480px;
+	left: 350px;
+	width:963px;
+	height:155px;
+}
+body{
+	background:grey;
+}
+#HUDcanvas{
+	position:absolute;
+	top: 10px;
+	left: 16px;
+	width:1293px;
+	height: 35px;
+	border: 2px solid black;
+	background:red;
+}
+#gameTitle{
+	position:absolute;
+	top: 12px;
+	left:20px;
+}
+#playerPos{
+	position:absolute;
+	top: 12px;
+	left:1250;
+}

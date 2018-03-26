@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Let Us Know</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="style/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="style/page.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="row">
+    	<div class="col-md-12 text-center">
+        	<header>
+            	<img src="image/consoleGamingIsFun.png" width="900" height="160" alt="Console Gaming is Fun"/>
+            </header>
+        </div><!--end header col-->
+    
+    </div> <!--end header row-->
+    
+   <div id="navbar" class="row"><!--nav bar div-->
+    	<ul class="nav nav-pills">
+        	<li><a href="index.html"><img src="image/evolutionbtn.png" width="125" height="100" alt=""/></a></li>
+            <li><a href="xboxone.html"><img src="image/xboxoneBtn.png" width="125" height="100" alt="xbox one button"/></a></li>
+            <li><a href="ps4.html"><img src="image/ps4btn.png" width="125" height="100" alt="ps4 button"/></a></li>
+            <li><a href="consolewars.html"><img src="image/consolewarsbtn.png" width="150" height="100" alt="console wars"/></a></li>
+            <li><a href="esports.html"><img src="image/eSportsbtn.png" width="115" height="100" alt="esports"/></a></li>
+            <li class="active"><a href="letusknow.html"><img src="image/letUsKnow.png" width="150" height="100" alt="letusknow"/></a></li>
+            <li><a href="citations.html"><img src="image/citationsbtn.png" width="125" height="100" alt="citation"/></a></li>
+        </ul>
+    </div> <!--end navigation bar <div>-->
+    
+    <br><br><br>
+    
+    <div class="row"><!--Form row-->
+    	<div class="col-md-1"><!--padding-->
+        </div><!--end padding-->
+        
+        <div class="col-md-10"><!--from-->
+        	<form name = "feedbackForm" class="feedbackform" method="post" onsubmit="return formValidation()" 
+            enctype="text/plain" action= "MAILTO:to503ny@gmail.com">
+            	<legend class="text-center">Name and Email</legend>
+                	<div class="row"><!--name and email-->
+                    	<div class="col-sm-4">
+                			<label id="firstName">First Name:<br><input type="text" name="firstname" 
+                            size="20"></label>
+                        </div>
+                        <div class="=col-sm-4">
+                    		<label id="lastName">Last Name:<br><input type="text" name="lastname" size="20"></label>
+                        </div>
+                        <br>
+                        <div class="col-sm-4">
+                    		<label id="email">Email:<br><input type="text" name="email"></label>
+                        </div>
+                    </div><!--end name and email row-->
+                    
+                <legend class="text-center">How do you like?</legend>
+                	<div class="row"><!--row1-->
+                    	<div class="col-md-4">
+                    		<h3>Site Layout</h3>
+                    			<select id="layoutSelection" name="layout">
+                                	<option value="choose one" selected>Choose One</option>
+                        			<option value="needs improvment">Needs Improvement</option>
+                            		<option value="good">Good</option>
+                            		<option value="great">Great</option>
+                        		</select>
+                           <br><br>   
+                                <textarea id="layoutTxtArea" name="layoutSuggestion"
+                                 form="feedbackform">Suggestions</textarea>
+                    	</div>
+                                                    
+                            
+                        <div class="col-md-4">      
+                        	<h3>Color Scheme</h3>
+                        		<select id="colorSchemeSelection" name="colorscheme">
+                                	<option value="choose one" selected>Choose One</option>
+                        			<option value="needs improvment">Needs Improvement</option>
+                            		<option value="good">Good</option>
+                            		<option value="great">Great</option>
+                        		</select>
+                            <br><br>
+                            	<textarea id="colorSchemeTxtArea" name="colorSchemeSuggestion" 
+                                form="feedbackform">Suggestions</textarea>
+                        </div>
+                        
+                        <div class="col-md-4">      
+                        	<h3>Content</h3>
+                        		<select id="contentSelection" name="content">
+                                	<option value="choose one" selected>Choose One</option>
+                        			<option value="needs improvment">Needs Improvement</option>
+                            		<option value="good">Good</option>
+                            		<option value="great">Great</option>
+                        		</select>
+                            <br><br>
+                            	<textarea id="contentTxtArea" name="contentSuggestion" 
+                                form="feedbackform">Suggestions</textarea>
+                        </div>
+                    </div><!--row1-->                  
+                    <br><br><br>                
+                    <div class="row"><!--row2-->
+                    	
+                        <div class="col-md-12">
+                        	<h3>Usability</h3>
+                        		<select id="usabilitySelection" name="usability">
+                                	<option value="choose one" selected>Choose One</option>
+                        			<option value="needs improvment">Needs Improvement</option>
+                            		<option value="good">Good</option>
+                            		<option value="great">Great</option>
+                        		</select>
+                            <br><br>
+                            	<textarea id= "usabilityTxtArea" name="usabilitySuggestion" 
+                                form="feedbackform">Suggestions</textarea>
+                        </div>                                     
+                    </div><!--row2-->
+                    <br><br><br>
+                    <div class="row"><!--row3-->
+                    	<div class="col-md-12">
+                        	<input id="submitBtn" class="formsubmit" type="submit" value="Send">
+                        </div>
+                    </div><!--row3-->
+            </form>
+        </div><!--end form-->
+        
+        <div class="col-md-1"><!--padding-->
+        </div><!--end padding-->
+    </div><!--end Form row-->
+    
+    <!--Form script-->
+    <script>
+		//validate form
+		function formValidation()
+		{
+			window.alert("Using Java Script to Validate Form")
+			
+			var fName = document.forms["feedbackForm"]["firstname"].value;
+			if (fName == null || fName == "")
+			{
+				alert("First Name must be filled out");
+				return false;	
+			}
+			var email = document.forms["feedbackForm"]["email"].value;
+			if (email == null || email == "")
+			{
+				alert("E-Mail must be filled out");
+				return false;	
+			}
+			var layout = document.forms["feedbackForm"]["layout"].value;
+			if (layout == "choose one" || layout == "")
+			{
+				alert("Must select a choice from Layout");
+				return false;	
+			}
+			var colorScheme = document.forms["feedbackForm"]["colorscheme"].value;
+			if (colorScheme == "choose one" || colorScheme == "")
+			{
+				alert("Must select a choice from Color Scheme");
+				return false;	
+			}
+			var content = document.forms["feedbackForm"]["content"].value;
+			if (content == "choose one" || content == "")
+			{
+				alert("Must select a choice from Content");
+				return false;	
+			}
+			var usability = document.forms["feedbackForm"]["usability"].value;
+			if (usability == "choose one" || usability == "")
+			{
+				alert("Must select a choice from Usability");
+				return false;	
+			}
+				
+		}
+		
+	</script>
+    <!--end Form Script-->
+    
+    <br><br><br>
+       
+    <div class="row">
+    	<footer class="modal-footer" style="text-align: center;">
+        Created by Santos A Cerritos Jr
+        </footer>
+    </div><!--End footer <div>-->
+    
+
+</div> <!-- End container <div> -->
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="style/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
